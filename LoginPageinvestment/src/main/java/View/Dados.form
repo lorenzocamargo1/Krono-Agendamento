@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="776" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="475" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="9" rowCount="10">
+                <Column editable="true" title="ID" type="java.lang.Object">
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="3"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="6"/>
+                  <Data value="7"/>
+                  <Data value="8"/>
+                  <Data value="9"/>
+                  <Data value="10"/>
+                </Column>
+                <Column editable="true" title="Empresa" type="java.lang.Object">
+                  <Data value="Nestl&#xe9;"/>
+                  <Data value="Avon"/>
+                  <Data value="Natura"/>
+                  <Data value="DUX"/>
+                  <Data value="Hdrup"/>
+                  <Data value="Comlink"/>
+                  <Data value="Funtec"/>
+                  <Data value="Coderp"/>
+                  <Data value="GlobalTree"/>
+                  <Data value="Paraventuras"/>
+                </Column>
+                <Column editable="true" title="Base de entrada" type="java.lang.Object">
+                  <Data value="S&#xe3;o Paulo"/>
+                  <Data value="Rio de Janeiro"/>
+                  <Data value="Fortaleza"/>
+                  <Data value="Salvador"/>
+                  <Data value="Goi&#xe2;nia"/>
+                  <Data value="Recife"/>
+                  <Data value="Brasilia"/>
+                  <Data value="Curitiba"/>
+                  <Data value="Rio de Janeiro"/>
+                  <Data value="Goi&#xe2;nia"/>
+                </Column>
+                <Column editable="true" title="Base de sa&#xed;da" type="java.lang.Object">
+                  <Data value="Bras&#xed;lia"/>
+                  <Data value="Goi&#xe2;nia"/>
+                  <Data value="Curitiba"/>
+                  <Data value="Curitiba"/>
+                  <Data value="Recife"/>
+                  <Data value="Salvador"/>
+                  <Data value="Goi&#xe2;nia"/>
+                  <Data value="Fortaleza"/>
+                  <Data value="Recife"/>
+                  <Data value="Salvador"/>
+                </Column>
+                <Column editable="true" title="Servi&#xe7;o" type="java.lang.Object">
+                  <Data value="KronoLog"/>
+                  <Data value="KronoLog"/>
+                  <Data value="KronoDrive"/>
+                  <Data value="KronoDrive"/>
+                  <Data value="KronoDrive"/>
+                  <Data value="KronoLog"/>
+                  <Data value="KronoLog"/>
+                  <Data value="KronoLog"/>
+                  <Data value="KronoLog"/>
+                  <Data value="KronoLog"/>
+                </Column>
+                <Column editable="true" title="Pesagem KG " type="java.lang.Object">
+                  <Data value="10000"/>
+                  <Data value="15000"/>
+                  <Data value="20"/>
+                  <Data value="50"/>
+                  <Data value="10"/>
+                  <Data value="3000"/>
+                  <Data value="4000"/>
+                  <Data value="2500"/>
+                  <Data value="6000"/>
+                  <Data value="3000"/>
+                </Column>
+                <Column editable="true" title="Data" type="java.lang.Object">
+                  <Data value="22/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                  <Data value="23/08/2023"/>
+                </Column>
+                <Column editable="true" title="Hora" type="java.lang.Object">
+                  <Data value="18:00"/>
+                  <Data value="18:30"/>
+                  <Data value="19:00"/>
+                  <Data value="17:00"/>
+                  <Data value="19:00"/>
+                  <Data value="15:00"/>
+                  <Data value="14:00"/>
+                  <Data value="13:00"/>
+                  <Data value="15:30"/>
+                  <Data value="16:00"/>
+                </Column>
+                <Column editable="true" title="Observa&#xe7;&#xe3;o" type="java.lang.Object">
+                  <Data value="Separar as cargas em somente em 3 trens se poss&#xed;vel"/>
+                  <Data value=""/>
+                  <Data value=""/>
+                  <Data value=""/>
+                  <Data value=""/>
+                  <Data value=""/>
+                  <Data value=""/>
+                  <Data value=""/>
+                  <Data value=""/>
+                  <Data value=""/>
+                </Column>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
